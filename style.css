@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: bisque;
     color: black;
+    position: fixed;
 }
 
 header {
@@ -157,19 +158,4 @@ section {
     margin: 10px;
     object-fit: cover;
     display: inline-block;
-}
-.wrapper {
-    min-height: 100%;
-    position: relative;
-}
-.content {
-    padding-bottom: 60%;
-}
-footer {
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
